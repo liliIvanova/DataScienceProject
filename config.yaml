@@ -1,0 +1,23 @@
+
+data:
+  raw:
+    trng: "trng_hex.txt"
+    prng_embedded: "prng_embedded.txt"
+    prng_python: "prng_python.txt"
+  
+  processed:
+    trng: "trng_bits.npy"
+    prng_embedded: "prng_embedded_bits.npy"
+    prng_python: "prng_python_bits.npy"
+
+split:
+  train_ratio: 0.8
+  
+# ========================
+# Preprocessing
+# ========================
+preprocessing:
+  bit_length: 128          # bits per number
+  group_size: 8            # 8 x 128 = 1024 bits
+  shuffle: false           # optional experiment
+
