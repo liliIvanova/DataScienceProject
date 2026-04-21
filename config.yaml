@@ -4,11 +4,13 @@ data:
     trng: "trng_hex.txt"
     prng_embedded: "prng_embedded.txt"
     prng_python: "prng_python.txt"
+    cs_prng_python: "cs_prng_python.txt"
   
   processed:
     trng: "trng_bits.npy"
     prng_embedded: "prng_embedded_bits.npy"
     prng_python: "prng_python_bits.npy"
+    cs_prng_python: "cs_prng_python_bits.npy"
 
 split:
   train_ratio: 0.8
